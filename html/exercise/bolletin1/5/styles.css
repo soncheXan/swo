@@ -1,0 +1,27 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.container
+{
+    margin-top: 20vh;
+    width: 100%;
+    height: auto;
+}
+.image
+{
+    display: block;
+    margin-right:auto;
+    margin-left: auto;
+    width: 80%;
+    max-width: 686px;
+    height: auto;
+}
+.text
+{
+    text-align: center;
+    margin: 5vh auto 0 auto;
+    font-size: 1.5em;
+    font-style: italic;
+}

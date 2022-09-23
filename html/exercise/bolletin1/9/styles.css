@@ -1,0 +1,36 @@
+.container
+{
+    border: 5px solid black;
+    padding: 10px 50px 30px 50px;
+    width: 75vw;
+    margin: 20px auto 0px auto;
+}
+.caja
+{
+    width: 65vw;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 50px;
+    height: 50px;
+    font-family: sans-serif;
+    margin: auto;
+    position: relative;
+}
+.gris
+{
+    background-color: rgb(212, 212, 235);
+}
+.verde
+{
+    background-color: rgb(33, 153, 65);
+    color: white;
+    top: -10px;
+    left: 20px;
+}
+.vino
+{
+    background-color: rgb(152, 42, 138);
+    color: white;
+    top: -20px;
+    left: 40px;
+}

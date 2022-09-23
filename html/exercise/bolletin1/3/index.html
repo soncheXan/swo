@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 3</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <form class="section">
+        <fieldset class="container">
+            <legend class="title">Datos presonales</legend>
+            <p class="area">
+                <label class="label block" for="username">Nombre:</label>
+                <input class="textbox" type="text" id="username" name="username"/>
+            </p>
+            <p class="area">
+                <label class="label block" for="age">Edad:</label>
+                <input class="textbox" type="number" id="age" name="age"/>
+            </p>
+            <p class="area">
+                <label class="label block" for="address">Dirección:</label>
+                <input class="textbox" type="text" id="address" name="address"/>
+            </p>
+        </fieldset>
+    </form>
+    <form class="section">
+        <fieldset class="container">
+            <legend class="title">Datos de tu ordenador</legend>
+            <p class="area">
+                <label class="label block" for="pcModel">Modelo de ordenador:</label>
+                <input class="textbox" type="text" id="pcModel" name="pcModel">
+            </p>
+            <p class="area">
+                <label class="label" for="problem">Sistema que te da el problema:</label>
+                <select>
+                    <option>CPU</option>
+                    <option>RAM</option>
+                    <option>HardDisk</option>
+                    <option>BIOS</option>
+                    <option>Monitor</option>
+                    <option>Desconocido</option>
+                </select>
+            </p>
+        </fieldset>
+    </form>
+    <form class="section">
+        <fieldset class="container">
+            <legend class="title">Descripción del problema</legend>
+            <p class="area">
+                <textarea class="textbox" name="problem-summery" id="summery" style="height: 20vh;"></textarea>
+            </p>
+        </fieldset>
+    </form>
+    <div class="submit-button">
+        <input id="button" type="submit" value="Enviar"/>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,38 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+body
+{
+    padding-bottom: 5vh;
+}
+.header{
+    height: 15vh;
+    width: 100%;
+    text-align: center;
+    line-height: 15vh;
+    font-family: sans-serif;
+    color: white;
+}
+.uno
+{
+    background-color: rgb(0, 222, 249);
+}
+.dos
+{
+    background-color: rgb(209, 110, 99);
+    position: sticky;
+    top: 0px;
+}
+.tres
+{
+    background-color: rgb(73, 80, 170);
+    position: sticky;
+    top: 15vh;
+    margin-bottom: 30px;
+}
+p
+{
+    margin: 0px 10vw 0px 10vw;
+}

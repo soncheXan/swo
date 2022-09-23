@@ -1,0 +1,49 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: gray;
+}
+body
+{
+    background-color: rgb(100, 149, 237);
+}
+.container
+{
+    margin: 5vh auto 0 auto;
+    width: 40vw;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+}
+h1
+{
+    margin: 5vh 0 5vh 0;
+    text-align: center;
+}
+.barra
+{
+
+    background-color: rgb(235, 242, 248);
+}
+.larga
+{
+    margin: 0 auto 1vh auto;
+    width: 90%;
+    height: 3vh;
+    border-radius: 2px;
+}
+.corta
+{
+    margin: 5vh auto 10vh auto;
+    width: 50%;
+    height: 5vh;
+}
+.circular
+{
+    margin: 20vh auto 0 auto;
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%;
+}

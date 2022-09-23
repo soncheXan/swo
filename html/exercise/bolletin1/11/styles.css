@@ -1,0 +1,48 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+.container
+{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    height: auto;
+    margin: 5vh auto 0 auto;
+    border: 5px solid gray;
+    font-family: sans-serif;
+}
+h1
+{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.subcontainer
+{
+    display: flex;
+    flex-direction: row;
+}
+.box
+{
+    padding: 50px 20px 50px 20px;
+}
+.one
+{
+    width: 65vw;
+    background-color: rgb(0, 255, 255);
+}
+.two
+{
+    display: flex;
+    flex-direction: column;
+    width: 15vw;
+    background-color: rgb(0, 0, 255);
+    color: white;
+    text-decoration: underline;
+}
+.link
+{
+    margin-bottom: 10px;
+}

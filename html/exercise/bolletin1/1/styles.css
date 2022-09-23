@@ -1,0 +1,40 @@
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+div
+{
+    margin: 20px auto 0px auto;
+    padding: 10px;
+    border: 1px solid;
+    width: 50vw;
+}
+h2
+{
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: sans-serif;
+}
+form
+{
+    width: 100%;
+}
+input
+{
+    display: block;
+    margin: 0px auto 10px auto;
+    text-align: center;
+    color: gray;
+    margin-bottom: 10px;
+}
+#button
+{
+    display: block;
+    margin: auto;
+    border: none;
+    background-color: #ffa500;
+    color: white;
+    padding: 10px;
+}
