@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-TutoApplication<tuto>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.tuto.tuto.TutoApplication",
+            "projectName": "tuto",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
