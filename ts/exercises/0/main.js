@@ -16,4 +16,4 @@ let empleados = {
         }
     ]
 };
-console.log(empleados.idiomas[0].otros[1]);
+console.log(empleados.idiomas[0].materno);

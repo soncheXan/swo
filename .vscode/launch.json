@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Ejercicio1Application",
+            "request": "launch",
+            "mainClass": "com.example.ejercicio1.Ejercicio1Application",
+            "projectName": "ejercicio1"
+        },
+        {
+            "type": "java",
+            "name": "Launch PruebaApplication",
+            "request": "launch",
+            "mainClass": "com.example.demo.PruebaApplication",
+            "projectName": "Prueba"
+        },
+        {
+            "type": "java",
             "name": "Spring Boot-TutoApplication<tuto>",
             "request": "launch",
             "cwd": "${workspaceFolder}",

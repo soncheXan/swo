@@ -1,0 +1,47 @@
+"use script";
+
+// Funciones predefinidas
+// alert('Mensaje ...')
+
+// let nombre = prompt('Introduzca su nombre:');
+// alert(nombre);
+
+// if(confirm('Está seguro de continuar?')){
+//     alert('Continuando ...');
+// }else
+//     alert('Denegado.');
+
+let nombre = 'Ana';
+let nombreMayus = nombre.toUpperCase();
+let nombreMinus = nombre.toLowerCase();
+
+// Funciones definidas por el usuario
+
+// Funcionse sin retorno y sin paraámetros
+
+function message(){
+    console.log('Texto ...');
+}
+
+// message();
+
+function dameNombre(nombre){;
+    console.log(nombre)
+}
+// dameNombre('Pepe');
+
+// Funciones con retorno y parámetros
+
+function imprimir(texto){
+    return texto;
+}
+
+// console.log(imprimir('texto cualquiera ...'));
+
+// Variables como funciones
+
+function saludo(){
+    return "Hola :)";
+}
+hola = saludo;
+// console.log(hola());
