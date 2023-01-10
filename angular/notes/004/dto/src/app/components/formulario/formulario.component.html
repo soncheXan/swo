@@ -1,0 +1,8 @@
+<form (submit)="save()">
+    <input type="text" name="username" autocomplete="off" placeholder="Usuario" [(ngModel)]="usuario.username">
+    <input type="text" name="password" autocomplete="off" placeholder="Contraseña" [(ngModel)]="usuario.password">
+    <input type="text" name="email" autocomplete="off" placeholder="Email" [(ngModel)]="usuario.email">
+    <input type="text" name="telefono" autocomplete="off" placeholder="Telefono" [(ngModel)]="usuario.telefono">
+    <input type="text" name="direccion" autocomplete="off" placeholder="Direccion" [(ngModel)]="usuario.direccion">
+    <button type="submit">Registrar</button>
+</form>

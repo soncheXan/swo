@@ -1,0 +1,33 @@
+<form [formGroup]="form" (submit)="getData();">
+  <input type="text" name="username" formControlName="username" autocomplete="off">
+  
+  <div *ngIf="form.get('username')?.errors?.['required']">
+    {{usernameRequiredMessage}}
+  </div>
+
+  <div *ngIf="form.get('username')?.errors?.['minlength']">
+    {{usernameMinLengthMessage}}
+  </div>
+
+  <br>
+  
+  <select name="color" id="color" formControlName="color">
+    <option value="">Color favorito?</option>
+    <option value="rojo">Rojo</option>
+    <option value="verde">Verde</option>
+    <option value="azul">Azul</option>
+  </select>
+
+  <br>
+
+  <input type="checkbox" name="pesca" value="Pesca" formControlName="pesca">Pesca
+  <input type="checkbox" name="musica" value="Musica" formControlName="musica">Música
+  <input type="checkbox" name="lectura" value="Lectura" formControlName="lectura">Lectura
+
+  <h2>Genero</h2>
+
+  <input type="radio" name="genero" value="Masculino" formControlName="genero">Masculino
+  <input type="radio" name="genero" value="Femenino" formControlName="genero">Femenino
+
+  <button type="submit">Enviar datos</button>
+</form>

@@ -1,0 +1,12 @@
+<form (submit)="getForm()">
+    <input type="text" name="username" [(ngModel)]="username"><br>
+    
+    <select name="aficiones" [(ngModel)]="aficiones">
+        <option value="">Seleccionar opción</option>
+        <option value="Lectura">Lectura</option>
+        <option value="Musica">Musica</option>
+        <option value="Pesca">Pesca</option>
+    </select>
+
+    <button type="submit">Enviar</button>
+</form>

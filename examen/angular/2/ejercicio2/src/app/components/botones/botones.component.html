@@ -1,0 +1,8 @@
+<div class="card border-dark p-5 mx-auto mt-5">
+    <button type="button" (click)="verAzul()" class="btn btn-outline-primary my-2" style="font-weight: 700;">AZUL</button>
+    <button type="button" (click)="verAmarillo()" class="btn btn-outline-warning my-2" style="font-weight: 700;">AMARILLO</button>
+    <button type="button" (click)="verVerde()" class="btn btn-outline-danger my-2" style="font-weight: 700;">ROJO</button>
+</div>
+<div *ngIf="alert === 'ALERTA DE COLOR AZUL'" class="alert alert-primary mx-auto mt-5" role="alert">{{alert}}</div>
+<div *ngIf="alert === 'ALERTA DE COLOR AMARILLO'" class="alert alert-warning mx-auto mt-5" role="alert">{{alert}}</div>
+<div *ngIf="alert === 'ALERTA DE COLOR ROJO'" class="alert alert-danger mx-auto mt-5" role="alert">{{alert}}</div>

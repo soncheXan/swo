@@ -1,0 +1,16 @@
+<div style="width: fit-content;margin: 5vh auto">
+    <button (click)="addClick()" class="btn btn-warning">Click</button>
+</div>
+
+<div class="card" style="height: 10vh;width: 60vw;margin: 3vh auto">
+    <h2 style="text-align: center;line-height: 10vh;">{{clicks}}</h2>
+</div>
+
+<form (submit)="addClick()" style="display: flex; flex-direction: column;justify-content: center;align-items: center;margin: 5vh 0">
+    <button type="submit" class="btn btn-warning" style="width: fit-content;">Click</button>
+
+    <div class="card" style="height: 10vh;width: 60vw;margin: 3vh auto">
+        <input type="text" name="clicks" [(ngModel)]="clicks" style="text-align: center;line-height: 10vh;font-weight: 700;font-size: x-large;">
+    </div>
+</form>
+

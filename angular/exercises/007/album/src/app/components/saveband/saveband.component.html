@@ -1,0 +1,5 @@
+<!-- Formulario para guardar una nueva banda -->
+<form (submit)="save()">
+    <input type="text" name="bandname" autocomplete="off" [(ngModel)]="band.bandName" />
+    <button type="submit">GUARDAR</button>
+</form>

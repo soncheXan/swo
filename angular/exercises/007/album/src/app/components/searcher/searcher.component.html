@@ -1,0 +1,10 @@
+<!-- Formulario para buscar una banda por su nombre-->
+<form>
+    <input (keyup)="show()" type="text" name="bandName" autocomplete="off" [(ngModel)] ="bandName">
+</form>
+
+  <h2> {{bandName}} </h2>
+  <div *ngFor="let band of bands.albums">
+    {{band.albumName}}
+  </div>
+  

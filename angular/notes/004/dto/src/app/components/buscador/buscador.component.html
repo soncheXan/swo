@@ -1,0 +1,16 @@
+<form (submit)="buscarUsuario()">
+    <input (keyup)="realTimeBuscador()" type="text" name="username" autocomplete="off" placeholder="Buscar" [(ngModel)]="username">
+
+    <button type="submit">Buscar</button>
+</form>
+
+<div *ngIf="usuarios.length>0;else notfound">
+    <div *ngFor="let user of usuarios">
+        <p>Nombre de usuario: {{user.username}}</p>
+        <p>Número de teléfono: {{user.telefono}}</p>
+    </div>
+</div>
+
+<ng-template #notfound>
+    <p>Sin resultados</p>
+</ng-template>

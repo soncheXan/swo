@@ -1,0 +1,14 @@
+### BUSCAR GOLISONAS POR COLOR
+GET http://localhost:8080/golisoneria/color/rojo
+
+### BUSCAR GOLISONAS POR DULZURA
+GET http://localhost:8080/golisoneria/dulzura/dulce
+
+### BUSCAR GOLISONAS POR PESO
+GET http://localhost:8080/golisoneria/peso/40.21
+
+### BUSCAR GOLISONAS POR PICANTE
+GET http://localhost:8080/golisoneria/picante/0
+
+### BUSCAR GOLISONAS POR SCORE
+GET http://localhost:8080/golisoneria/score/7

@@ -1,0 +1,31 @@
+###     LISTAR TODOS LOS CONTACTOS
+GET http://localhost:8080/api/contact/list
+
+###     BUSCAR CONTACTO POR ID
+GET http://localhost:8080/api/contact/1
+
+###     GUARDAR CONTACTO
+POST http://localhost:8080/api/contact/save
+Content-Type : application/json
+
+{
+    "nombre" : "Martin",
+    "apellidoUno" : "Pérez",
+    "apellidoDos" : "Martínez",
+    "telefono" : 665876534
+}
+
+###     MODIFICAR CONTACTO
+
+PUT http://localhost:8080/api/contact/3
+Content-Type : application/json
+
+{
+    "nombre" : "Martina",
+    "apellidoUno" : "Peláez",
+    "apellidoDos" : "Gómez",
+    "telefono" : 665876534
+}
+
+### ELIMINAR CONTACTO
+DELETE http://localhost:8080/api/contact/3

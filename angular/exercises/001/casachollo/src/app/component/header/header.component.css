@@ -1,0 +1,27 @@
+nav
+{
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.menu
+{
+    background-color: transparent;
+    border: none;
+}
+.casachollo
+{
+    color: #0d0e93;
+    text-decoration: none;
+    font-size: x-large;
+    font-weight: 700;
+}
+.separator
+{
+    width: 30vw;
+}
+button
+{
+    font-weight: 700;
+}

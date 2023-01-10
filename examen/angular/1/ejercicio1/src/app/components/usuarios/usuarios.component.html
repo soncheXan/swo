@@ -1,0 +1,18 @@
+
+<div class="card border-info p-5" style="width: 50%;display: flex;flex-direction: column;align-items: center;margin: 5vh auto;">
+    <button type="button" (click)="addUsuario()" class="btn btn-outline-success mb-4" style="width: 50%;margin: 5vh, auto;">Añadir Usuario</button>
+    <table class="table text-center">
+        <thead  class="thead-dark">
+            <tr scope="row">
+                <th>Username</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr scope="row" *ngFor="let usuario of usuarios">
+                <td>{{usuario.username}}</td>
+                <td>{{usuario.email}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

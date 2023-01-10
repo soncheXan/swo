@@ -1,0 +1,16 @@
+.form {
+    width: fit-content;
+}
+.links {
+    margin: 1vh auto;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+form {
+    width: 50vw;
+}
+a {
+    font-weight: 600;
+}

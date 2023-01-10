@@ -1,0 +1,6 @@
+<form (keyup)="mirrorText()" style="width: 40vw; margin: 5vh auto;">
+    <input class="form-control" name="inputTxt" [(ngModel)]="inputTxt" style="width: 40vw;" type="text">
+</form>
+<div *ngIf="outputTxt !== ''" class="card border-danger border-3 p-4 mt-5 mx-auto" style="width: 40vw;">
+    {{outputTxt}}
+</div>

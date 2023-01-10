@@ -1,0 +1,10 @@
+.pie {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: rgb(38, 47, 142);
+}
+a {
+    color: white;
+    font-weight: 700;
+}

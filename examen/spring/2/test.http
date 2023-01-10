@@ -1,0 +1,8 @@
+### MOSTRAR TODA LA LISTA DE EMPLEADOS
+GET http://localhost:8080/api/empleado/lista
+
+### MOSTRAR EMPLEADO POR ID
+GET http://localhost:8080/api/empleado/2
+
+### MOSTRAR EMPLEADO POR ID
+GET http://localhost:8080/api/empleado/por-email/juan@gmail.com

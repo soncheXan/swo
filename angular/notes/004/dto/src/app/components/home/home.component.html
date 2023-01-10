@@ -1,0 +1,23 @@
+<table>
+    <thead>
+        <tr>
+            <th>Username</th>
+            <th>Teléfono</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor = "let usuario of usuarios">
+            <td>{{usuario.username}}</td>
+            <td>{{usuario.telefono}}</td>
+            <td>
+                <button (click)="delete(usuario.id)">Eliminar</button>
+            </td>
+            <td>
+                <a [routerLink]="['/update/', usuario.id]">
+                    <button>Actualizar</button>
+                </a>
+            </td>
+
+        </tr>
+    </tbody>
+</table>

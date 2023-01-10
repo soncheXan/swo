@@ -1,0 +1,2 @@
+### LISTAR TODOS LOS JUGADORES
+GET http://localhost:8080/lista-jugadores

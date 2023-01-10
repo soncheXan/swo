@@ -1,0 +1,20 @@
+<div style="width: fit-content;margin: 10vh auto">
+    <button (click)="showTable()" class="btn btn-success">{{txt}}</button>
+</div>
+
+<table *ngIf="txt === 'Ocultar tabla'" class="table" style="width: 60vw; margin: 0 auto; text-align:center;">
+    <thead class="thead-dark">
+        <tr>
+            <th>Nombre</th>
+            <th>Antigüedad</th>
+            <th>Salario</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let empleado of empleados">
+            <td style="text-align: left;">{{empleado.nombreCompleto}}</td>
+            <td>{{empleado.antiguedad}}</td>
+            <td>{{empleado.salario}}</td>
+        </tr>
+    </tbody>
+</table>
